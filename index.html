@@ -11,8 +11,9 @@
 
 <header>
     <nav>search</nav>
-    <button>menu</button>
+    <nav>menu</nav>
 </header>
+
 <main>
 <h1 style="text-align: center;">some news</h1>
 
@@ -62,8 +63,10 @@
     <a href="https://www.w3schools.com" target="_blank">W3schools</a>
 </div>
 
+<figure>
 <img src="/images/newspaper.jpeg" alt="newspaper" width="500" height="600">
-<caption>(this is caption)</caption>
+<figcaption>this is description</figcaption>
+</figure>
 
 <p style="text-align: center;">
     list
@@ -73,38 +76,40 @@
     <li>css یادگیری</li>
 </ol>
 
+
+
+<form action="actionpage.html" method="post" style="text-align: center;">
+    <fieldset>
+        <legend>فرم ثبت نام</legend>
+        <label for="fname">نام</label><br>
+        <input type="text" id="fname" name="fname" placeholder="نام" required><br>
+
+        <label for="lname">نام خانوادگی</label><br>
+        <input type="text" id="lname" name="lname" placeholder="نام خانوادگی"><br>
+
+        <label for="em">ایمیل</label><br>
+        <input type="email" id="em" name="em" placeholder="email" required ><br>
+
+        <label for="tel">موبایل</label><br>
+        <input type="tel" id="tel" name="tel" placeholder="09123456789" 
+        pattern="09127326565" maxlength="11"><br>
+
+        <label for="pass">ورود پسورد</label><br>
+        <input type="password" id="pass" name="pass" required><br><br>
+
+        <input type="submit" id="butt" name="butt" value="submit"><br>
+        </fieldset>
+</form>
+
 </main>
 
-    <form action="" method="post" style="text-align: center;">
-        <fieldset>
-            <legend>فرم ثبت نام</legend>
-            <label for="fname">نام</label><br>
-            <input type="text" id="fname" name="fname" placeholder="نام" required><br>
+<footer style="text-align: center;">
+    <p>phone</p>
+    <a href="tel:+989373391603" title="phone">+98 9876543211</a><br><br>
 
-            <label for="lname">نام خانوادگی</label><br>
-            <input type="text" id="lname" name="lname" placeholder="نام خانوادگی"><br>
-
-            <label for="em">ایمیل</label><br>
-            <input type="email" id="em" name="em" placeholder="email" required ><br>
-
-            <label for="tel">موبایل</label><br>
-            <input type="tel" id="tel" name="tel" placeholder="09123456789" 
-            pattern="09127326565" maxlength="11"><br>
-
-            <label for="pass">ورود پسورد</label><br>
-            <input type="password" id="pass" name="pass" required><br><br>
-
-            <input type="submit" id="butt" name="butt" value="submit"><br>
-        </fieldset>
-    </form>
-
-    <footer style="text-align: center;">
-        <p>phone</p>
-        <a href="0999999999" title="phone">099999999</a><br><br>
-
-        <p>email</p>
-        <a href="firewall550@yahoo.com" title="email">firewall@yahoo</a>
-    </footer>
+    <p>email</p>
+    <a href="mailto:firewall550@yahoo.com" title="email">firewall@yahoo</a>
+</footer>
 
 
 </body>
